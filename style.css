@@ -80,6 +80,12 @@
     border-radius: 4px;
     background-color: pink;
 }
+
+
+input:focus{
+    outline: none;
+}
+
 .select{
     background-color: #E6E6E6;
     width: 50px;
@@ -178,3 +184,48 @@
     padding-bottom: 5px;
     padding-left: 5px;
 }
+
+/* panel */
+.panel{
+    background-color: #242C3C;
+    height: 39px;
+    display: flex;
+    align-items: center;
+    /* box-sizing: border-box; */
+}
+.panel-all{
+    color: white;
+    margin: 20px;
+    font-size: 15px;
+    display: flex;
+    /* font-weight: bold; */
+    padding: 8px;
+    /* padding: ; */
+}
+#all{
+    padding-left: 5px;
+    font-weight: bold;
+    font-size: 14px;
+}
+.deal{
+    color: white;
+    padding: 8px;
+    font-size: 14px;
+    font-weight:500;
+
+}
+.deal-panel{
+    position: relative;
+    left: -18px;
+}
+
+.registry{
+    color: white;
+    font-weight: 500;
+    font-size: 14px;
+    padding: 8px;
+    position: relative;
+    left: -18px;
+}
+
+/*  */
