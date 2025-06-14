@@ -258,9 +258,9 @@ input:focus{
 /* shop section */
 
 .box{
-    height: 420px;
+    height: 380px;
     width: 23%;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     background-color: white;
     padding: 20px 0px 15px;
 }
@@ -328,7 +328,7 @@ input:focus{
     color:#2162A1;
     padding-left:10px;
     position: relative;
-    top: 90px;
+    top: 60px;
     text-decoration: none;
 }
 .img10{
@@ -349,7 +349,8 @@ background-size: cover;
     font-size: 13px; 
     color:#2162A1; padding-left:10px; 
      position: relative;
-    top: 35px; text-decoration: none;
+     top: 5px; 
+    text-decoration: none; 
 }
 .img12{
     background-image: url('images/img12.png');
@@ -375,4 +376,103 @@ background-size: cover;
 }
 .img16{
     background-image: url('images/img16.png');
+}
+.img17{
+    background-image: url('images/img17.png');
+}
+.img18{
+    background-image: url('images/img18.png');
+}
+.img19{
+    background-image: url('images/img19.png');
+}
+.img20{
+    background-image: url('images/img20.png');
+}
+.img21{
+    background-image: url('images/img21.png');
+}
+.img22{
+    background-image: url('images/img22.png');
+}
+.img23{
+    background-image: url('images/img23.png');
+}
+.img24{
+    background-image: url('images/img24.png');
+}
+.img25{
+    background-image: url('images/img25.png');
+}
+.img26{
+    background-image: url('images/img26.png');
+}
+.img27{
+    background-image: url('images/img27.png');
+}
+.img28{
+    background-image: url('images/img28.png');
+}
+.img29{
+    background-image: url('images/img29.png');
+}
+.img30{
+    background-image: url('images/img30.png');
+}
+.img31{
+    background-image: url('images/img31.png');
+}
+.img32{
+    background-image: url('images/img32.png');
+}
+.scroll-section
+{
+    /* color: white; */
+    height: 200px;
+    /* width: 100px; */
+    width: 97%;
+     background-color: white;
+}
+.scroll-img1{
+    background-image: url('images/img33.png');
+    height: 200px;
+    width: 140px;
+}
+.scroll-img2{
+    background-image: url('images/img34.png');
+    height: 200px;
+    width: 165px;
+}
+.scroll-img3{
+    background-image: url('images/img35.png');
+    height: 200px;
+    width: 160px;
+}
+.scroll-img4{
+    background-image: url('images/img36.png');
+    height: 200px;
+    width: 160px;
+}
+.scroll-img5{
+    background-image: url('images/img37.png');
+    height: 200px;
+    width: 310px;
+}
+.scroll-img6{
+    background-image: url('images/img38.png');
+    height: 200px;
+    width: 110px;
+}
+.scroll-img7{
+    background-image: url('images/img39.png');
+    height: 200px;
+    width: 170px;
+}
+
+.f-child{
+    padding: 10px;
+}
+.section{
+    display: flex;
+    justify-content: space-evenly;
 }
