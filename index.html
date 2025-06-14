@@ -1,83 +1,142 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Amazon.com</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
 
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <header>
-   <div id="navbar" class="navbar">
-<div class="nav-logo border">
-    <div class="logo">
-<img src="images/img4.png" height="30px" id="amazon-logo" alt="">
-    </div>
-</div>
-<div class="nav-add add-border">
-    <p class="add-first">Deliver to</p>
-    <div class="add-icon">
-<i class="fa-solid fa-location-dot"></i>
-        <p class="add-second">India</p>
-    </div>
-</div>
-<div class="nav-search">
-    <select class="select">
-        <option value="">All</option>
-        <option value="Books">Books</option>
-    </select>
-    <input id="inp" class="search" type="text" placeholder="Seach Amazon">
-    <div class="search-icon">
-        <i class="fa-solid fa-magnifying-glass"></i>
-    </div>
-</div>
+      <div id="navbar" class="navbar">
+        <div class="nav-logo border">
+          <div class="logo">
+            <img src="images/img4.png" height="30px" id="amazon-logo" alt="" />
+          </div>
+        </div>
+        <div class="nav-add add-border">
+          <p class="add-first">Deliver to</p>
+          <div class="add-icon">
+            <i class="fa-solid fa-location-dot"></i>
+            <p class="add-second">India</p>
+          </div>
+        </div>
+        <div class="nav-search">
+          <select class="select">
+            <option value="">All</option>
+            <option value="Books">Books</option>
+          </select>
+          <input
+            id="inp"
+            class="search"
+            type="text"
+            placeholder="Seach Amazon"
+          />
+          <div class="search-icon">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+        </div>
 
-<div class="box4 border">
-    <img src="images/img5.png" id="country-img" height="20px" alt="">
-    <p id="country" class="cont">EN<span class="down-arrow">&#9662;</span></p>
-</div>
+        <div class="box4 border">
+          <img src="images/img5.png" id="country-img" height="20px" alt="" />
+          <p id="country" class="cont">
+            EN<span class="down-arrow">&#9662;</span>
+          </p>
+        </div>
 
+        <div class="nav-sign border">
+          <p class="hello-sign"><span class="helo">Hello, sign in</span></p>
+          <p class="acc-list">
+            Account & LIsts<span class="down-arrow" id="arr">&#9662;</span>
+          </p>
+        </div>
+        <div id="box5" class="border">
+          <p class="return"><span>Returns</span></p>
+          <p class="order">& Orders</p>
+        </div>
 
-<div class="nav-sign border">
-    <p class="hello-sign"><span class="helo">Hello, sign in</span></p>
-    <p class="acc-list">Account & LIsts<span class="down-arrow" id="arr">&#9662;</span></p>
-</div>
-<div id="box5" class="border">
-    <p class="return"><span>Returns</span></p>
-    <p class="order">& Orders</p>
-</div>
+        <div id="cart" class="border">
+          <i class="fa-solid fa-cart-shopping" id="cart-logo"></i>
+          <p class="mycart">Cart</p>
+        </div>
+      </div>
 
-<div id="cart" class="border">
-    <i class="fa-solid fa-cart-shopping" id="cart-logo"></i>
-    <p class="mycart">Cart</p>
-</div>
-    </div>
-
-    <div class="panel">
+      <div class="panel">
         <div class="panel-all border">
-            <i class="fa-solid fa-bars"></i>
-            <p id="all">All</p>
+          <i class="fa-solid fa-bars"></i>
+          <p id="all">All</p>
         </div>
 
         <div class="deal-panel border">
-            <p class="deal">Today's Deals</p>
+          <p class="deal">Today's Deals</p>
         </div>
         <div class="registry border">
-            <p>Registry</p>
+          <p>Registry</p>
         </div>
-        <div class="prime-vid registry border">
-            Prime Video
-        </div>
+        <div class="prime-vid registry border">Prime Video</div>
         <div class="gift registry border">Gift Cards</div>
         <div class="customer registry border">Customer Service</div>
         <div class="sell registry border">Sell</div>
-    </div>
+      </div>
     </header>
- 
 
+    <div class="hero-section">
+      <div class="hero-msg">
+        <p>
+          You are on amazon.com. You can also shop on Amazon India for millions
+          of products with fast local delivery.
+          <a id="amazon-link" href="https://www.amazon.com/"
+            >Click here to go to amazon.in</a
+          >
+        </p>
+      </div>
+    </div>
 
-<script src="script.js"></script>
-</body>
+    <div class="shop-section">
+      <div id="box1" class="box"><h2 class="box-head">Shop for your home essentials</h2>
+      <div class="box1-images">
+        <div class="img6"></div>
+        <div class="img7"></div>
+         <p class="desc">Bedding</p>
+         <p class="desc">Cleaning Tools</p>
+        <div class="img8" ></div>
+        <div class="img9"></div>
+         <p class="desc">Home Decor</p>
+        <p class="desc">Home Storage</p>
+      </div>
+    <p><a class="desc-link" href="https://www.amazon.com/s/?_encoding=UTF8&k=home&pd_rd_w=DwNNH&content-id=amzn1.sym.83009b1f-702c-4be7-814b-0240b8f687d2&pf_rd_p=83009b1f-702c-4be7-814b-0240b8f687d2&pf_rd_r=DF64RZMTFYR5YFZM8G9D&pd_rd_wg=PtrhW&pd_rd_r=95c51ec8-431d-4e00-b9f5-75e2927491ac&ref_=pd_hp_d_atf_unk">Discover more in home</a></p></div>
+
+      <div id="box2" class="box"><h2 class="box-head">Get your game on</h2>
+      <div class="img10 i"></div><div><a href="https://www.amazon.com/s/?_encoding=UTF8&k=gaming&pd_rd_w=MDb82&content-id=amzn1.sym.860dbf94-9f09-4ada-8615-32eb5ada253a&pf_rd_p=860dbf94-9f09-4ada-8615-32eb5ada253a&pf_rd_r=DF64RZMTFYR5YFZM8G9D&pd_rd_wg=PtrhW&pd_rd_r=95c51ec8-431d-4e00-b9f5-75e2927491ac&ref_=pd_hp_d_atf_unk   " class="desc-link1">Shopping game</a></div></div>
+      <div id="box3" class="box">
+        <h2 class="box-head">Toys under $25</h2>
+        <div class="i img11"></div><div><a class="desc-link1" href="https://www.amazon.com/s/?_encoding=UTF8&k=toys&rh=p_36%3A-2500&pd_rd_w=TnSqm&content-id=amzn1.sym.44da4965-9668-4613-bec2-a3a75f0c2ad4&pf_rd_p=44da4965-9668-4613-bec2-a3a75f0c2ad4&pf_rd_r=DF64RZMTFYR5YFZM8G9D&pd_rd_wg=PtrhW&pd_rd_r=95c51ec8-431d-4e00-b9f5-75e2927491ac&ref_=pd_hp_d_atf_unk">Shop now</a></div>
+      </div>
+      <div id="box4" class="box"><h2 class="box-head">Gifts for Dad under $25</h2>
+      <div class="i img12"></div><div><a href="https://www.amazon.com/gp/goldbox/?ie=UTF8&ref_=nav_cs_gb&discounts-widget=%2522%257B%255C%2522state%255C%2522%253A%257B%255C%2522refinementFilters%255C%2522%253A%257B%255C%2522price%255C%2522%253A%255B%255C%25221%255C%2522%255D%257D%257D%252C%255C%2522version%255C%2522%253A1%257D%2522&pd_rd_w=eMAWB&content-id=amzn1.sym.c16f4533-3f23-4e24-959f-905ff203729e&pf_rd_p=c16f4533-3f23-4e24-959f-905ff203729e&pf_rd_r=DF64RZMTFYR5YFZM8G9D&pd_rd_wg=PtrhW&pd_rd_r=95c51ec8-431d-4e00-b9f5-75e2927491ac" class="desc-link1">See all deals</a></div></div>
+      
+         <div id="box1" class="box"><h2 class="box-head">Shop for your home essentials</h2>
+      <div class="box1-images">
+        <div class="img13 img4"></div>
+        <div class="img4 img14"></div>
+         <p class="desc">Kitchen & dining</p>
+         <p class="desc">Home improvement</p>
+        <div class="img4 img15" ></div>
+        <div class="img4 img16"></div>
+         <p class="desc">Decor</p>
+        <p class="desc">Bedding & Bath</p>
+      </div>
+    <p><a class="desc-link" href="https://www.amazon.com/s/?_encoding=UTF8&k=home&i=garden&rh=n%3A1055398%2Cp_36%3A-5000&s=exact-aware-popularity-rank&dc=&pd_rd_w=de27x&content-id=amzn1.sym.323d0286-4a11-49aa-bed8-b1096b240d7b&pf_rd_p=323d0286-4a11-49aa-bed8-b1096b240d7b&pf_rd_r=67684HBAWDD4BNGN8P2F&pd_rd_wg=Eroco&pd_rd_r=a69e6282-4109-4de2-9b63-51d98453f56a&ref_=pd_hp_d_atf_unk">Shop the latest from Home</a></p></div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
 </html>
